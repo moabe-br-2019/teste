@@ -1,5 +1,10 @@
+/*Importar Fontes*/
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap');
+
+
+/*Corpo*/
 
 body{
 
@@ -8,6 +13,8 @@ body{
 
 
 }
+
+/*Cores*/
 
 :root {
     --verde3:#0B485B;
@@ -22,4 +29,14 @@ body{
     --cinza2:#CFD3D8;
     --cinza1:#F1F3F5;
     --branco:#FFFFFF;
+  }
+
+
+  .HeadingLg {
+
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 56px;
+    line-height: 100%;
+    font-weight: 900;
+
   }
