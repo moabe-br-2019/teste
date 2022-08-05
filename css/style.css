@@ -42,7 +42,56 @@ body{
   }
 
 
+  .HeadingMd{
+
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: 900;
+
+  }
+
+
+  .HeadingSm{
+
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 32px;
+    line-height: 110%;
+    font-weight: 900;
+
+  }
+
+
+  .HeadingXs{
+
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 24px;
+    line-height: 110%;
+    font-weight: 900;
+
+  }  
+
 
   @media only screen and (max-width: 360px) {
    
+    .HeadingLg{
+
+        font-size: 40px;
+
+    }
+
+    .HeadingMd{
+
+        font-size: 32px;
+    }
+
+    .HeadingSm{
+
+        font-size: 24px;
+    }
+
+    .HeadingXs{
+
+        font-size: 20px;
+    }
   }
