@@ -134,25 +134,26 @@
   }
   
   .btn1{
-    min-width:200px;
+    min-width:120px;
     padding: 10px 30px 10px 30px;
     border: solid 3px var(--preto);
     background-color: var(--branco);
     font-weight:900;
     letter-spacing:2px;
     box-shadow: 0 8px 4px -6px var(--preto);
+    font-size: 10px;
   }
 
 
   .btn2{
-    min-width:180px;
+    min-width:120px;
     padding: 12px 30px 12px 30px;
     border: 0;
     background-color:#19C1CE;
-
     font-weight:900;
     letter-spacing:2px;
     box-shadow: 0 8px 4px -6px var(--preto);
+    font-size: 10px;
   }
   
   .btn2::after{
