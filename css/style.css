@@ -167,7 +167,7 @@ body{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background: var(--cinza1);
+  background: var(--branco);
   width: 100%;
   height: 100px;
 
