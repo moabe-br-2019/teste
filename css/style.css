@@ -126,11 +126,11 @@
   .btn1{
     width:150px;
     padding: 10px 30px 10px 30px;
-    border: solid 3px #000000;
-    background-color:#FFFFFF;
+    border: solid 3px var(--preto);
+    background-color: var(--branco);
     font-weight:900;
     letter-spacing:2px;
-    box-shadow: 0 8px 4px -6px #000;
+    box-shadow: 0 8px 4px -6px var(--preto);
   }
 
   .btn2{
@@ -140,7 +140,7 @@
     background-color:#19C1CE;
     font-weight:900;
     letter-spacing:2px;
-    box-shadow: 0 8px 4px -6px #000;
+    box-shadow: 0 8px 4px -6px var(--preto);
   }
   
   .btn2::after{
@@ -162,9 +162,9 @@ body{
 #header{
   display: flex;
   flex-direction: row;
-  background: #19C1CE;
+  background: var(--cinza1);
   width: 100vw;
-  height: 200px;
+  height: 100px;
 
 
 }
