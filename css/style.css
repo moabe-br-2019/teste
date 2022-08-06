@@ -71,6 +71,24 @@ body{
 
   }  
 
+  .SubtitleSm {
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 400 ;
+
+  }
+
+  .SubtitleXs {
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 400 ;
+
+  }
+
 
   @media only screen and (max-width: 360px) {
    
@@ -93,5 +111,17 @@ body{
     .HeadingXs{
 
         font-size: 20px;
+    }
+
+    .SubtitleSm {
+
+      font-size: 16px;
+      
+    }
+
+    .SubtitleSm {
+
+      font-size: 14px;
+      
     }
   }
