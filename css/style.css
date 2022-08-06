@@ -139,6 +139,16 @@ body{
     box-shadow: 0 8px 4px -6px #000;
   }
 
+  .btn2{
+    width:150px;
+    padding: 10px 30px 10px 30px;
+    border: 0;
+    background-color:#19C1CE;
+    font-weight:900;
+    letter-spacing:2px;
+    box-shadow: 0 8px 4px -6px #000;
+  }
+
   @media only screen and (max-width: 360px) {
    
     .HeadingLg{
