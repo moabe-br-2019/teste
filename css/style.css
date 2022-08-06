@@ -1,6 +1,12 @@
 /*Importar Fontes*/
+*{
+  box-sizing: border-box;
+
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap');
 
 
@@ -10,7 +16,7 @@ body{
 
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Darker Grotesque', sans-serif;
-
+    
 
 }
 
@@ -115,6 +121,24 @@ body{
 
   }
 
+  /* Botões */
+
+  button{
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    line-height:19.6px;
+  }
+  
+  .btn1{
+    width:150px;
+    padding: 10px 30px 10px 30px;
+    border: solid 3px #000000;
+    background-color:#FFFFFF;
+    font-weight:900;
+    letter-spacing:2px;
+    box-shadow: 0 8px 4px -6px #000;
+  }
+
   @media only screen and (max-width: 360px) {
    
     .HeadingLg{
@@ -149,4 +173,6 @@ body{
       font-size: 14px;
       
     }
+
+
   }
