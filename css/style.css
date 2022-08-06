@@ -194,12 +194,13 @@ ul{
 .main-logo{
 
   width:174px;
+  align-self: center;
 
 }
 
 .logo{
   flex:1;
-  align-items: center;
+  /*align-items: center;*/
 
 }
 
