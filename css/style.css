@@ -261,6 +261,7 @@ justify-content: center;
 .chamada-formulario{
 
   width:40%;
+  background-color: var(--branco);
 
 }
 
