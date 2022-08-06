@@ -155,7 +155,8 @@ body{
 
   font-family: 'Nunito Sans', sans-serif;
   font-family: 'Darker Grotesque', sans-serif;
-  display: flex;
+  /*display: flex;*/
+  box-sizing: border-box;
   
 
 }
