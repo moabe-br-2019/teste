@@ -124,7 +124,7 @@
   }
   
   .btn1{
-    width:150px;
+    min-width:150px;
     padding: 10px 30px 10px 30px;
     border: solid 3px var(--preto);
     background-color: var(--branco);
@@ -135,7 +135,7 @@
 
 
   .btn2{
-    width:180px;
+    min-width:180px;
     padding: 12px 30px 12px 30px;
     border: 0;
     background-color:#19C1CE;
