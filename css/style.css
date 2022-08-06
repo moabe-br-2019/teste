@@ -194,11 +194,27 @@ ul{
 
 }
 
+.header-menu{
+
+  display: flex;
+  flex-grow: 1;
+
+}
+
+.header-menu ul{
+
+  display: inline-flex; 
+  justify-content: space-between;
+  
+}
+
+
 .btns{
 
   width:450px;
 
 }
+
   
 
   @media only screen and (max-width: 360px) {
