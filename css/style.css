@@ -165,6 +165,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   background: var(--cinza1);
   width: 100vw;
   height: 100px;
