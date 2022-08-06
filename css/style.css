@@ -164,6 +164,7 @@ body{
 #header{
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   background: var(--cinza1);
   width: 100vw;
   height: 100px;
