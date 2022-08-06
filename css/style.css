@@ -177,7 +177,7 @@ body{
 #header{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background: var(--branco);
   width: 100%;
