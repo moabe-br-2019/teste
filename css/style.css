@@ -215,6 +215,7 @@ ul{
 .btns{
 
   width:450px;
+  justify-content: center;
 
 }
 
