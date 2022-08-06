@@ -242,9 +242,15 @@ ul{
 
 background: url('/imgs/hero-background.svg');
 height:650px;
+display: flex;
 
 }
   
+.chamada-containter{
+
+  width:40%;
+
+}
 
   @media only screen and (max-width: 360px) {
    
