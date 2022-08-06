@@ -176,6 +176,7 @@ body{
 
 #header{
   display: flex;
+  flex: 1;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -215,7 +216,7 @@ ul{
 
 .btns{
 
-  width:450px;
+  flex
   justify-content: center;
 
 }
