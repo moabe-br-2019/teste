@@ -173,6 +173,11 @@ ul{
   list-style: none;
 }
 
+.main-logo{
+
+  width:174px;
+
+}
   
 
   @media only screen and (max-width: 360px) {
