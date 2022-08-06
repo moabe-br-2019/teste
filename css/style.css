@@ -241,6 +241,8 @@ ul{
 #chamada {
 
 background: url('/imgs/hero-background.svg') no-repeat;
+background-position: cover;
+width: 100%;
 height:650px;
 display: flex;
 justify-content: space-between;
