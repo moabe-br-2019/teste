@@ -255,6 +255,12 @@ justify-content: space-between;
 
 }
 
+.chamada-formulario{
+
+  width:40%;
+
+}
+
   @media only screen and (max-width: 360px) {
    
     .HeadingLg{
