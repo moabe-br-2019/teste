@@ -106,6 +106,16 @@
 
   }
 
+  .BodyMdBold {
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 900 ;
+
+  }
+
+
   .BodySm {
 
     font-family: 'Nunito Sans', sans-serif;
