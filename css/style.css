@@ -216,7 +216,7 @@ ul{
 
 .btns{
 
-  flex
+  display:flex;
   justify-content: center;
 
 }
