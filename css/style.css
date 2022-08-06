@@ -229,6 +229,14 @@ ul{
   column-gap: 10px;
 }
 
+
+#hero{
+
+  border: solid 1px var(--cinza2);
+
+
+}
+
   
 
   @media only screen and (max-width: 360px) {
