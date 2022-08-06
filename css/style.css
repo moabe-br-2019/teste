@@ -240,9 +240,10 @@ ul{
 
 #chamada {
 
-background: url('/imgs/hero-background.svg');
+background: url('/imgs/hero-background.svg') no-repeat;
 height:650px;
 display: flex;
+justify-content: space-between;
 
 }
   
