@@ -199,7 +199,8 @@ ul{
 
 .logo{
   flex:1;
-  
+  align-items: center;
+
 }
 
 .header-menu{
