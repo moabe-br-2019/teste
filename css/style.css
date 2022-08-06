@@ -107,12 +107,12 @@
 
   }
 
-  .BodyMdBold {
+  .menuItem {
 
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
-    line-height: 150%;
-    font-weight: 900 ;
+    line-height: 16px;
+    font-weight: 700 ;
 
   }
 
