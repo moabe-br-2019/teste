@@ -29,6 +29,7 @@
     --branco:#FFFFFF;
   }
 
+  /*Fontes */
 
   .HeadingLg {
 
@@ -116,8 +117,14 @@
     box-shadow: 6px 6px 0px 0px #EEFBFB inset;
   }
 
-  
-
+  .input-invisivel{
+    display: none;
+  }
+  select{
+    width:450px;
+    height: 40px;
+    border: 2px solid #000000;
+  }
 
 
   .menuItem {
@@ -197,6 +204,19 @@
     content: "→"
   }
 
+  .btn3{
+
+    min-width:450px;
+    padding: 12px 30px 12px 30px;
+    border: 0;
+    background-color:var(--amarelo2);
+    font-weight:900;
+    letter-spacing:2px;
+    box-shadow: 0 8px 4px -6px var(--preto);
+    font-size: 10px;
+  }
+
+
 /*Corpo*/
 
 body{
@@ -223,7 +243,7 @@ body{
 
 }
 
-ul{
+#header ul{
   list-style: none;
 }
 
@@ -312,7 +332,7 @@ column-gap: 20px;
   z-index: 10;
   width:496px;
   background-color: var(--branco);
-  height: 700px;
+  min-height: 950px;
   box-shadow: 0px 4px 12px 0px #2124291c ;
   padding: 0 20px 0 20px;
 
@@ -320,9 +340,13 @@ column-gap: 20px;
 
 .form-containter p{
   width: 100%;
-  padding: 8px 0 4px 0;
+  margin: 10px 0;
 }
 
+.form-containter ul{
+  list-style: none;
+  padding-bottom: 20px;
+}
 
 .form-subtitulo{
     color: #7E8A98;
@@ -335,21 +359,78 @@ column-gap: 20px;
   .chamada-brand{
 
     padding: 50px;
-    background: var(--verde3);
+    background: var(--verde3) url('/imgs/shape.svg') no-repeat;
     color: var(--branco);
+    height: 350px;
+    padding-bottom: 50px;
 
   }
 
-
-
-
 .inner-chamada-container{  
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
   width:40%;
-  margin-left: 150px;
+  margin-left: 100px;
   
   
 }
 
+.inner-chamada-container h4{
+
+  padding-top: 20px;
+
+
+}
+
+
+#resultados{
+
+  background: url('/imgs/fundo-resultados.svg') no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+}
+
+.lista-col1-container{
+  padding-top: 100px;
+  width:40%;
+  margin-left: 50px;
+  height: 600px;
+
+}
+
+.lista-col2-container{
+  width:500px;
+  padding-top: 80px;
+}
+
+.resultados-header{
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+}
+
+.resultados-header h3{
+  color: #212429;
+}
+
+.lista-resultados-corpo{
+  padding-top: 20px;
+  width: 450px;
+}
+
+.lista-resultados-corpo ul{
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  list-style-image: url('/imgs/check-li.png');
+}
 
   @media only screen and (max-width: 360px) {
    
