@@ -11,8 +11,7 @@ window.onload = function(){
     //botões
     const btnVerPass = document.querySelector("#btn-ver-pass")
     const btnVerPassConfirm = document.querySelector("#btn-ver-pass-confirm")
-    const iconeVerPass = document.querySelector('#btn-ver-pass > i')
-    const iconeVerPassConfirm = document.querySelector('#btn-ver-pass-confirm > i')
+
 
     let textPassword = {
         'text': ( el ) =>{ el.setAttribute ('type', 'password')},
@@ -28,5 +27,7 @@ window.onload = function(){
     btnVerPassConfirm.addEventListener('click', function(){
         textPassword[inputVerPassConfirm.type](inputVerPassConfirm)
     })
+
+    
 
 }
