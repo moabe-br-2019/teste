@@ -81,7 +81,7 @@
   .input-form{
     border: 2px solid #000000;
     height: 40px;
-    width: 450px;
+    min-width: 450px;
     border-radius: 0px;
     box-shadow: 6px 6px 0px 0px #EEFBFB inset;
   }
@@ -90,7 +90,7 @@
     display: none;
   }
   select{
-    width:450px;
+    min-width: 450px;
     height: 40px;
     border: 2px solid #000000;
   }
@@ -135,4 +135,53 @@
 
   .right{
     text-align: right !important;
+  }
+
+
+  @media only screen and (max-width: 500px) {
+   
+    .HeadingLg{
+
+        font-size: 40px;
+
+    }
+
+    .HeadingMd{
+
+        font-size: 32px;
+    }
+
+    .HeadingSm{
+
+        font-size: 24px;
+    }
+
+    .HeadingXs{
+
+        font-size: 20px;
+    }
+
+    .SubtitleSm {
+
+      font-size: 16px;
+      
+    }
+
+    .SubtitleSm {
+
+      font-size: 14px;
+      
+    }
+
+    .input-form{
+
+        min-width: 250px;
+    }
+
+    select{
+
+        min-width: 250px;
+
+    }
+
   }

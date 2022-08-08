@@ -68,7 +68,8 @@
 
   .btn3{
 
-    min-width:450px;
+    max-width:450px;
+    min-width:250px;
     padding: 12px 30px 12px 30px;
     border: 0;
     background-color:var(--amarelo2);
@@ -165,8 +166,8 @@ body{
 #chamada {
 
 background: url('/imgs/hero-background.svg') no-repeat;
-/*background-position: cover;*/
-background-size: 100%;
+background-position: top center;
+background-size: cover;
 width: 100%;
 max-height:600px;
 display: flex;
@@ -186,7 +187,6 @@ flex-wrap: wrap
   /*height: 600px;*/
   
 
-  
 
 }
 
@@ -230,7 +230,7 @@ flex-wrap: wrap
     padding: 50px;
     background: var(--verde3) url('/imgs/shape.svg') no-repeat;
     color: var(--branco);
-    height: 350px;
+    min-height: 350px;
     padding-bottom: 50px;
 
   }
@@ -271,8 +271,15 @@ flex-wrap: wrap
 
 }
 
+.lista-col1-container img{
+
+    width: 25rem;
+    
+
+}
+
 .lista-col2-container{
-  width:500px;
+  max-width:500px;
   padding-top: 80px;
 }
 
@@ -290,7 +297,7 @@ flex-wrap: wrap
 
 .lista-resultados-corpo{
   padding-top: 20px;
-  width: 450px;
+  max-width: 450px;
 }
 
 .lista-resultados-corpo ul{
@@ -303,51 +310,70 @@ flex-wrap: wrap
 
   @media only screen and (max-width: 500px) {
    
-    .HeadingLg{
 
-        font-size: 40px;
+    .header-menu{
+      display: none;
+    }
+
+    .btns{
+      display: none;
+    }
+
+    #chamada {
+
+      width: 100%;
+      margin: 0;
+      min-height: 1500px;
 
     }
 
-    .HeadingMd{
-
-        font-size: 32px;
-    }
-
-    .HeadingSm{
-
-        font-size: 24px;
-    }
-
-    .HeadingXs{
-
-        font-size: 20px;
-    }
-
-    .SubtitleSm {
-
-      font-size: 16px;
-      
-    }
-
-    .SubtitleSm {
-
-      font-size: 14px;
-      
-    }
 
 .chamada-containter{
 
-  padding: 0;
+  padding: 2em;
   margin: 0;
-  width: 90%;
+  width: 100%;
 
 }
 
 .form-containter{
   width: 90%;
   background-color: var(--branco);
+  z-index: 0;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
+
+.inner-chamada-container{
+
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+
+#resultados{
+
+  flex-direction: column-reverse;
+
+}
+
+.lista-col1-container{
+
+  margin: 0;
+  padding: 1em 2em;
+  height: 300px;
+  justify-content: center;
+
+
+}
+
+
+.lista-col1-container img{
+
+  width: 20rem;
+  
+}
 
   }
