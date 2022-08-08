@@ -308,16 +308,27 @@ flex-wrap: wrap
   list-style-image: url('/imgs/check-li.png');
 }
 
+
+@media only screen and (max-width: 768px) {
+
+
+  .header-menu{
+    display: none;
+  }
+  
+  .btns{
+    display: none;
+  }
+
+
+}
+
+
+
+
   @media only screen and (max-width: 500px) {
    
 
-    .header-menu{
-      display: none;
-    }
-
-    .btns{
-      display: none;
-    }
 
     #chamada {
 
