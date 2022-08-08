@@ -150,6 +150,11 @@ body{
   column-gap: 10px;
 }
 
+.menu-mobile{
+  display: none;
+}
+
+
 /*   Corpo   */
 
 
@@ -311,6 +316,12 @@ flex-wrap: wrap
 
 @media only screen and (max-width: 768px) {
 
+  #header{
+
+    justify-content: space-around;
+    padding: 0 15px;
+
+  }
 
   .header-menu{
     display: none;
@@ -319,6 +330,12 @@ flex-wrap: wrap
   .btns{
     display: none;
   }
+
+  .menu-mobile{
+    display: block;
+  }
+
+
 
 
 }

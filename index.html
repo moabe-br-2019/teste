@@ -6,14 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fa icons -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- / Fa icons -->
+
 </head>
 <body>
- <div id="header">
+ <header id="header">
     <div class="logo">
 
         <img alt="rd station logo" class="main-logo" src="/imgs/logo.svg">
 
     </div>
+
+    <div class="menu-mobile"><img src="/imgs/Hamburguer-menu.svg" alt="menu"></div>
     
     <div class="header-menu">
 
@@ -32,9 +44,11 @@
             <button class="btn2">button 2</button>
         </div>
 
+        
+
     
 
- </div>   
+ </header>   
 
 <div id="hero">
 <div id="chamada">
@@ -50,19 +64,19 @@
         <div class="form-subtitulo">
             <h5 class="SubtitleXs">Não precisa cadastrar cartão de crédito. 😉</h5>
         </div>
-        <form>
+        <form action="https://rdstation-signup-psel.herokuapp.com." method="post">
             <p><label class="BodyMd negrito">Diga, qual seu nome?</label><br/>
-            <input type="text" name="nome" id="form-nome" placeholder="Insira seu nome" class="input-form"></p>
+            <input type="text" name="nome" id="form-nome" placeholder="Insira seu nome" class="input-form" required></p>
             
             <p><label class="BodyMd negrito">Seu e-mail de trabalho</label><br/>
-            <input type="email" name="nome" id="form-email" placeholder="Digite seu e-mail" class="input-form"></p>
+            <input type="email" name="nome" id="form-email" placeholder="Digite seu e-mail" class="input-form" required></p>
 
             <p><label class="BodyMd negrito">Seu telefone</label><br/>
-            <input type="tel" name="nome" id="form-tel" placeholder="Insira seu telefone com DDD" class="input-form"></p>
+            <input type="tel" name="nome" id="form-tel" placeholder="Insira seu telefone com DDD" class="input-form" required></p>
 
             <p><label class="BodyMd negrito">Selecione seu Cargo</label><br/>
 
-                <select name="Selecione um cargo" id="form-cargo" title="Selecione um cargo">
+                <select name="Selecione um cargo" id="form-cargo" title="Selecione um cargo" required>
                 <option value="Diretor">Diretor</option>
                 <option value="Presidente">Presidente</option>
                 <option value="Gestor">Gestor</option>
@@ -70,11 +84,18 @@
               </select>
             
             </p>
-            <p><label class="BodyMd negrito">Crie uma senha</label><br/>
-            <input type="password" name="nome" id="form-pass" placeholder="Insira sua senha" class="input-form"></p>
-
-            <p><label class="BodyMd negrito">Confirme sua senha senha</label><br/>
-            <input type="password" name="nome" id="form-pass-confirm" placeholder="Digite sua senha novamente" class="input-form"></p>
+            <p> 
+                <label class="BodyMd negrito">Crie uma senha</label><br/>
+                <input type="password" name="nome" id="form-pass" placeholder="Insira sua senha" class="input-senha" required> 
+                <button class="mostrar-senha"><i class="fa-solid fa-eye"></i></button>
+                
+            </p>
+            
+            <p>
+                <label class="BodyMd negrito">Confirme sua senha senha</label><br/>
+                <input type="password" name="nome" id="form-pass-confirm" placeholder="Digite sua senha novamente" class="input-senha" required>
+                <button class="mostrar-senha"><i class="fa-solid fa-eye"></i></button>
+            </p>
             
 
             <p><label class="BodyMd negrito">Qual site da sua empresa?</label><br/>
@@ -136,6 +157,6 @@
 
 
 
-
+<script src="index.js"></script>
 </body>
 </html>
