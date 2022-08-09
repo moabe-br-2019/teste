@@ -22,31 +22,24 @@
     <div class="logo">
 
         <img alt="rd station logo" class="main-logo" src="/imgs/logo.svg">
-        <div class="menu-mobile"><img src="/imgs/Hamburguer-menu.svg" alt="menu"></div>
+        <div class="menu-mobile"><i class="fa-solid fa-bars fa-2x" id="menu-clicar"></i></div>
     </div>
 
-    
-    
-    <div class="header-menu">
-
-        <ul>
-            <li class="menuItem">Menu 1</li>
-            <li class="menuItem">Menu 2</li>
-            <li class="menuItem">Menu 3</li>
-            <li class="menuItem">Menu 4</li>
-            <li class="menuItem">Menu 5</li>
-        </ul>
-
-    </div>
-
-        <div class="btns">
-            <button class="btn1">button 1</button>
-            <button class="btn2">button 2</button>
+    <div id="menu-responsivo">
+        <div class="header-menu">
+            <ul>
+                <li class="menuItem">Menu 1</li>
+                <li class="menuItem">Menu 2</li>
+                <li class="menuItem">Menu 3</li>
+                <li class="menuItem">Menu 4</li>
+                <li class="menuItem">Menu 5</li>
+            </ul>
         </div>
-
-        
-
-    
+            <div class="btns">
+                <button class="btn1">button 1</button>
+                <button class="btn2">button 2</button>
+            </div>
+    </div>
 
  </header>   
 
@@ -72,7 +65,7 @@
             <input type="email" name="nome" id="form-email" placeholder="Digite seu e-mail" class="input-form" required></p>
 
             <p><label class="BodyMd negrito">Seu telefone</label><br/>
-            <input type="tel" name="nome" id="form-tel" placeholder="Insira seu telefone com DDD" class="input-form" required></p>
+            <input type="tel" name="nome" id="form-tel" placeholder="Insira seu telefone com DDD" class="input-form" required  maxlength="14" data-js="phone" ></p>
 
             <p><label class="BodyMd negrito">Selecione seu Cargo</label><br/>
 
@@ -86,10 +79,11 @@
             </p>
             <p> 
                 <label class="BodyMd negrito">Crie uma senha</label><br/>
-                <input type="password" name="nome" id="form-pass" placeholder="Insira sua senha" class="input-senha" required> 
+                <input type="password" name="form-pass" id="form-pass" placeholder="Insira sua senha" class="input-senha" required> 
                 <i class="fa-solid fa-eye" id="btn-ver-pass"></i>
                 
             </p>
+           
             
             <p>
                 <label class="BodyMd negrito">Confirme sua senha senha</label><br/>
@@ -153,7 +147,20 @@
 
 
 </div>
+<footer id="footer">
 
+<div class="footerlogo">
+    <img alt="rd station logo" class="main-logo" src="/imgs/logo.svg">
+</div>
+
+<div class="footer_social">
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-youtube"></i>
+</div>
+
+</footer>
 
 
 
